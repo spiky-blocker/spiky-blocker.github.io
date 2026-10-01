@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Spiky — Privacy Policy</title>
+  <link rel="icon" href="../spiky.svg">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body><main>
+  <header><a href="../"><img src="../spiky.svg" alt="Spiky"></a><a class="word" href="../">Spiky</a></header>
+  <div class="card">
+    <div class="lang"><a href="#en">English</a><a href="#tr">Türkçe</a></div>
+
+    <section id="en" lang="en">
+      <h1>Privacy Policy</h1>
+      <p class="meta">Effective: October 1, 2026</p>
+
+      <h2>Summary</h2>
+      <p>Spiky does not collect, store on any server, sell or share any personal data. It makes no network requests of its own. Everything it does happens inside your browser.</p>
+
+      <h2>What Spiky stores, and where</h2>
+      <p>Only on your device, in Chrome's extension storage:</p>
+      <ul>
+        <li><strong>Your settings:</strong> whether blocking is on, and the list of sites you turned Spiky off for (<code>chrome.storage.local</code>). They stay until you change them or remove the extension.</li>
+        <li><strong>Blocked-request counts per tab:</strong> used for the number in the popup and the dot on the toolbar icon (<code>chrome.storage.session</code>). Cleared when a page changes, a tab closes, or the browser quits.</li>
+      </ul>
+      <p>None of this leaves your browser.</p>
+
+      <h2>Why Spiky needs its permissions</h2>
+      <ul>
+        <li><strong>Read and change data on all websites</strong> (<code>&lt;all_urls&gt;</code>), <strong>scripting</strong>: to hide ad elements and stop popunder ads on the pages you visit.</li>
+        <li><strong>declarativeNetRequest:</strong> to block ad and tracker requests using built-in filter rules.</li>
+        <li><strong>webRequest:</strong> to count blocked requests per tab. Spiky only observes; it does not read or change request contents.</li>
+        <li><strong>webNavigation, tabs:</strong> to know when a page loads in a tab, so per-site settings and counts apply to the right page.</li>
+        <li><strong>storage:</strong> to remember your settings.</li>
+      </ul>
+
+      <h2>Filter lists</h2>
+      <p>Blocking rules are bundled with the extension and updated only through Chrome Web Store updates. Spiky does not download anything at runtime.</p>
+
+      <h2>Contact</h2>
+      <p>Questions: use the support contact on Spiky's Chrome Web Store page.</p>
+    </section>
+
+    <hr>
+
+    <section id="tr" lang="tr">
+      <h1>Gizlilik Politikası</h1>
+      <p class="meta">Yürürlük: 1 Ekim 2026</p>
+
+      <h2>Özet</h2>
+      <p>Spiky hiçbir kişisel veriyi toplamaz, herhangi bir sunucuda saklamaz, satmaz veya paylaşmaz. Kendi adına hiçbir ağ isteği yapmaz. Yaptığı her şey tarayıcınızın içinde gerçekleşir.</p>
+
+      <h2>Spiky ne saklar, nerede saklar</h2>
+      <p>Yalnızca cihazınızda, Chrome'un eklenti depolama alanında:</p>
+      <ul>
+        <li><strong>Ayarlarınız:</strong> engellemenin açık olup olmadığı ve Spiky'yi kapattığınız sitelerin listesi (<code>chrome.storage.local</code>). Siz değiştirene ya da eklentiyi kaldırana kadar kalır.</li>
+        <li><strong>Sekme başına engellenen istek sayıları:</strong> popup'taki sayı ve araç çubuğu simgesindeki nokta için kullanılır (<code>chrome.storage.session</code>). Sayfa değiştiğinde, sekme kapandığında veya tarayıcı kapandığında silinir.</li>
+      </ul>
+      <p>Bunların hiçbiri tarayıcınızın dışına çıkmaz.</p>
+
+      <h2>Spiky neden bu izinlere ihtiyaç duyar</h2>
+      <ul>
+        <li><strong>Tüm web sitelerindeki verileri okuma ve değiştirme</strong> (<code>&lt;all_urls&gt;</code>), <strong>scripting:</strong> ziyaret ettiğiniz sayfalarda reklam öğelerini gizlemek ve popunder reklamları durdurmak için.</li>
+        <li><strong>declarativeNetRequest:</strong> yerleşik filtre kurallarıyla reklam ve izleyici isteklerini engellemek için.</li>
+        <li><strong>webRequest:</strong> sekme başına engellenen istekleri saymak için. Spiky yalnızca gözlemler; isteklerin içeriğini okumaz ve değiştirmez.</li>
+        <li><strong>webNavigation, tabs:</strong> bir sekmede sayfanın ne zaman yüklendiğini bilmek, böylece site ayarlarını ve sayıları doğru sayfaya uygulamak için.</li>
+        <li><strong>storage:</strong> ayarlarınızı hatırlamak için.</li>
+      </ul>
+
+      <h2>Filtre listeleri</h2>
+      <p>Engelleme kuralları eklentiyle birlikte gelir ve yalnızca Chrome Web Store güncellemeleriyle yenilenir. Spiky çalışırken hiçbir şey indirmez.</p>
+
+      <h2>İletişim</h2>
+      <p>Sorular için Spiky'nin Chrome Web Store sayfasındaki destek iletişimini kullanın.</p>
+    </section>
+  </div>
+</main></body>
+</html>

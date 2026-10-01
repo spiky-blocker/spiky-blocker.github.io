@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@600&family=Roboto+Flex:opsz,wght@8..144,400;8..144,600&display=swap");
+:root { color-scheme: light dark; --ink: #12302C; --muted: #3F4947; --brand: #00796B; --bg: #FBF8F4; --card: #fff; }
+@media (prefers-color-scheme: dark) { :root { --ink: #DDE4E2; --muted: #A9B4B1; --brand: #4DB6AC; --bg: #0E1514; --card: #161D1C; } }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--ink); font: 17px/1.6 "Roboto Flex", Roboto, system-ui, sans-serif; }
+main { max-width: 760px; margin: 0 auto; padding: 48px 24px 80px; }
+header { display: flex; align-items: center; gap: 16px; margin-bottom: 32px; }
+header img { width: 72px; height: 72px; }
+.word { font-family: "Fredoka", sans-serif; font-weight: 600; font-size: 44px; color: var(--brand); line-height: 1; text-decoration: none; }
+h1 { font-size: 30px; line-height: 1.25; margin: 0 0 6px; }
+h2 { font-size: 21px; margin: 36px 0 8px; }
+.meta { color: var(--muted); margin: 0 0 24px; }
+a { color: var(--brand); }
+code { font-size: 0.88em; background: rgba(0,121,107,.08); padding: 1px 5px; border-radius: 4px; }
+.card { background: var(--card); border-radius: 24px; padding: 28px 32px; box-shadow: 0 1px 2px rgba(0,0,0,.06), 0 2px 8px rgba(0,0,0,.05); }
+.lang { display: flex; gap: 12px; margin-bottom: 20px; }
+hr { border: 0; border-top: 1px solid rgba(127,127,127,.25); margin: 48px 0; }
+footer { color: var(--muted); font-size: 14px; margin-top: 40px; }
